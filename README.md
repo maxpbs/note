@@ -6,19 +6,24 @@
 
 ## 笔记
 
+[可视化代码](totuma.cn)
+
 ### C++基础
 
 #### 易错注意点
 > Aurora同学是一个正宗Python开发人员，他还没有习惯使用C++语言呢。两种语言的差异令他经常编译错误，所以只能搞一个栏目提醒一下自己啦！
 
 ##### 句末不加`；`
+
 重要程度：🌟🌟🌟
+
 C++使用“；”表示一句代码的终止，而Python以换行符结束。
 
 ### 算法基础
 
 #### 递归
 [OI-Wiki #递归](https://oi-wiki.org/basic/divide-and-conquer/)
+[递归-Bilibili](https://www.bilibili.com/video/BV1ks421w7cA/?spm_id_from=333.337.search-card.all.click&vd_source=efe3da59fa937ede2313042e28554db9)
 
 > 递归的基本思想是某个函数直接或者间接地调用自身，这样原问题的求解就转换为了许多性质相同但是规模更小的子问题。求解时只需要关注如何把原问题划分成符合条件的子问题，而不需要过分关注这个子问题是如何被解决的。
 
@@ -30,8 +35,6 @@ int func(传入数值) {
   return func(缩小规模);
 }
 ```
-
-<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=1854856106&bvid=BV1ks421w7cA&cid=1556292500&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
 ## 随笔
 
